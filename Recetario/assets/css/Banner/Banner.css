@@ -1,0 +1,44 @@
+.banner__imagen
+{
+    background: url("/assets/img/banner.png");
+    width: 100%;
+}
+
+.banner__titulo
+{
+    color:#fdfdfd;
+    font-family:Pacifico,cursive ;
+    font-size: 5rem;
+    position: absolute;
+    left: 50%;
+    text-shadow: 0 4px 4px rgba(0,0,0,0.75);
+    top:  50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    width: 100%;
+
+}
+@media screen and (min-width:0)
+{
+    .banner__titulo
+    {
+        font-size: 3rem;
+    }
+    .banner__imagen
+    {
+        height: calc(100vw - 51px);
+    }
+
+}
+@media screen and (min-width:768px)
+{
+    .banner__titulo
+    {
+        font-size: 5rem;
+    }
+    .banner__imagen
+    {
+        height: calc(100vw - 72px);
+    }
+
+}
